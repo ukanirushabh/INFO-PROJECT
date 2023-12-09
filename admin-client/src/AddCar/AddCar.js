@@ -41,7 +41,7 @@ const AddCar = () => {
   return (
     <div className="bg-[#222f3e] h-[100vh] flex justify-center items-center ">
       <div className="p-5 text-white bg-[#4834d4]">
-        <div className="mb-5 text-center">Add a Car</div>
+        <div className="mb-5 text-center">Add a Rental</div>
         <div>Name</div>
         <input
           onChange={onChange}
@@ -50,7 +50,7 @@ const AddCar = () => {
           value={creds.name}
           required={true}
         />
-        <div>Model</div>
+        <div>Rental Model</div>
         <input
           onChange={onChange}
           className="mt-2 p-3 w-96 bg-transparent border border-black"
@@ -58,7 +58,7 @@ const AddCar = () => {
           value={creds.model}
           required={true}
         />
-        <div>Car Type</div>
+        <div>Rental Type</div>
         <input
           onChange={onChange}
           className="mt-2 p-3 w-96 bg-transparent border border-black"
@@ -66,7 +66,7 @@ const AddCar = () => {
           value={creds.carType}
           required={true}
         />
-        <div>Seats</div>
+        <div>Rooms</div>
         <input
           onChange={onChange}
           className="mt-2 p-3 w-96 bg-transparent border border-black"
@@ -74,7 +74,7 @@ const AddCar = () => {
           value={creds.seats}
           required={true}
         />
-        <div>Gears</div>
+        <div>Bathrooms</div>
         <input
           onChange={onChange}
           className="mt-2 p-3 w-96 bg-transparent border border-black"
