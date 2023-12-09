@@ -6,15 +6,15 @@ import { getCookie } from "../utils/cookie-helper";
 
 const AddCar = () => {
   const [creds, setcreds] = useState({
-    name: "Tesla Model S",
-    model: "book@tesla.com",
-    carType: "coupe",
-    seats: "4",
-    gears: "Automatic",
-    price: "499.99",
-    qt: "5",
+    name: "",
+    model: "",
+    carType: "",
+    seats: "",
+    gears: "",
+    price: "",
+    qt: "",
     image:
-      "https://www.google.com/imgres?imgurl=https%3A%2F%2Ftesla-cdn.thron.com%2Fdelivery%2Fpublic%2Fimage%2Ftesla%2F3863f3e5-546a-4b22-bcbc-1f8ee0479744%2FbvlatuR%2Fstd%2F1200x628%2FMX-Social&imgrefurl=https%3A%2F%2Fwww.tesla.com%2Fmodelx&tbnid=Xm2lDJDSvSzXnM&vet=12ahUKEwitm-j-i-v7AhWoGFkFHdREB_wQMygBegUIARDmAQ..i&docid=nAmbVd5MEZDJgM&w=1200&h=628&q=tesla&ved=2ahUKEwitm-j-i-v7AhWoGFkFHdREB_wQMygBegUIARDmAQ",
+      "",
   });
 
   const onChange = (e) => {
