@@ -1,7 +1,7 @@
-# CAR-O-PEDIA
+# HouseHop
 
 
-React, Node, MongoDB, Express - MERN Stack - "Rant-a-car Single Page App"
+React, Node, MongoDB, Express - MERN Stack - "Rant-a-place Single Page App"
 
 * top 3 offers (landing page)
 * 3 main types subcategory (landing page)
@@ -24,7 +24,7 @@ React, Node, MongoDB, Express - MERN Stack - "Rant-a-car Single Page App"
 
 # Admin panel
 * Contains admin login
-* Contains delete and add cars
+* Contains delete and add rentals
 * Contains features to add other people as admin
 
 # Landing Page
@@ -37,7 +37,7 @@ React, Node, MongoDB, Express - MERN Stack - "Rant-a-car Single Page App"
 
 
 # Fleet Page
-* client side pagination and contains all the vehicles available
+* client side pagination and contains all the rentals available
 
 # Auth Page
 * login, register
