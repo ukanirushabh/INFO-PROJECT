@@ -13,10 +13,10 @@ import FleetList from '../Fleet/components/FleetList';
 import PreLoader from '../shared/components/PreLoader/PreLoader';
 import CarInforCard from '../shared/components/CarInfoCard/CarInfoCard';
 import Layout from '../shared/components/Layout/Layout';
-import suv from '../assets/vw-touran.png';
-import sedan from '../assets/bmw-1er.png';
-import coupe from '../assets/mb-e53.png';
-import myVideo from '../assets/backvideo.mp4';
+import suv from '../assets/cabin1.jpeg';
+import sedan from '../assets/Mansion1.jpeg';
+import coupe from '../assets/beachfronthouse2.jpeg';
+import myVideo from '../assets/TravelVideo.mp4';
 import { ThemeContext, themes } from '../shared/contexts/ThemeContext';
 
 const LandingPage = () => {
@@ -68,12 +68,12 @@ const LandingPage = () => {
             <source src={myVideo} type='video/mp4' />
           </video>
           <div className='content'>
-            <h1 ref={(el) => (title = el)} className='home-title'>
+            {/* <h1 ref={(el) => (title = el)} className='home-title'>
               Welcome to Car-0-Pedia
             </h1>
             <p ref={(el) => (subtitle = el)} className='sub-title'>
               Rent, Drive Carefree
-            </p>
+            </p> */}
           </div>
         </div>
 
@@ -115,21 +115,21 @@ const LandingPage = () => {
             alt={'coupe'}
             clicked={onSearchtHandler}
             name={'coupe'}
-            text={'Check our coupes'}
+            text={'Check our BeachFronts'}
           />
           <CarInforCard
             src={sedan}
             alt={'sedan'}
             clicked={onSearchtHandler}
             name={'sedan'}
-            text={'Check our sedans'}
+            text={'Check our Mansions'}
           />
           <CarInforCard
             src={suv}
             alt={'suv'}
             clicked={onSearchtHandler}
             name={'suv'}
-            text={'Check our suvs'}
+            text={'Check our Cabins'}
           />
         </section>
       </div>
